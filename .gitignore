@@ -1,0 +1,15 @@
+# Ignore Simulink generated build/cache
+slprj/
+*_ert_rtw/
+codegen/
+*.slxc
+
+# Autosave / backup files
+*.asv
+*.autosave
+*.mdl.r20*
+*.slx.original
+
+# OS clutter
+.DS_Store
+Thumbs.db

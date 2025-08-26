@@ -3,6 +3,7 @@ slprj/
 *_ert_rtw/
 codegen/
 *.slxc
+resources/
 
 # Autosave / backup files
 *.asv

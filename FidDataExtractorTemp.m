@@ -12,7 +12,7 @@ axPV = axs(idxPV);
 lns = findobj(axPV,'Type','line');
 assert(~isempty(lns),'No line objects found on the P–V axes.');
 
-% Keep only continuous curves (ignore marker-only lines)
+% Keep only continuous curves
 lns = lns(arrayfun(@(h) numel(get(h,'XData')), lns) > 20);
 
 % For each curve, find Pmax and the corresponding V at Pmax (Vmp)
@@ -25,7 +25,7 @@ for k = 1:numel(lns)
     Vmp(k) = V(idx);
 end
 
-% Collapse exact duplicates (some releases draw each curve twice)
+% Collapse exact duplicates
 [~, ia] = unique([round(Pmax,9); round(Vmp,9)].','rows','stable');
 Pmax = Pmax(ia); Vmp = Vmp(ia);
 

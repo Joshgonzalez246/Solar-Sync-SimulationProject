@@ -25,8 +25,10 @@ It uses the **ASSTA Hybrid (Adjustable Step Size Theta)** algorithm with a **cur
 | PWM output | D9 | 50 kHz gate drive |
 | OLED display | I²C @ 0x3D | 128×64 SSD1306 |
 
---
+---
 
 ## Hybrid MPPT Flowchart
 
-![Hybrid MPPT Flowchart](Technical%20Documents/Hybrid%20MPPT-Flowchart.png)
+<div style="background-color:white; padding:10px; display:inline-block;">
+  <img src="Technical%20Documents/Hybrid%20MPPT-Flowchart.png" alt="Hybrid MPPT Flowchart" width="600">
+</div>

@@ -29,6 +29,4 @@ It uses the **ASSTA Hybrid (Adjustable Step Size Theta)** algorithm with a **cur
 
 ## Hybrid MPPT Flowchart
 
-<div style="background-color:white; padding:10px; display:inline-block;">
-  <img src="Technical%20Documents/Hybrid%20MPPT-Flowchart.png" alt="Hybrid MPPT Flowchart" width="600">
-</div>
+![Hybrid MPPT Flowchart](Technical%20Documents/Hybrid%20MPPT-Flowchart.jpeg)
